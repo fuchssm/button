@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 10 px
+}
+.itens{
+    background-color: white;
+    padding: 10 px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 10px
+}
+
+.user{
+    font-weight: 900;
+}
+.itens1{
+  background-color: blueviolet;
+  padding: 10px;
+}
+

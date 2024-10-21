@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.flex-container {
+    display: flex;
+    /* row, column, row-reverse */
+    flex-direction: column;
+
+    /* flex-start, center flex-end, space-evelyn, space-between*/ 
+    justify-content: space-evenly; 
+
+    align-items:center;
+    background:black;
+    height: 500px;
+    gap: 5px;
+}
+
+.flex-item {
+    text-align: center;
+    background-color: white ;
+    width: 50%;
+}

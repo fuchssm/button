@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    background-color: black;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+@media  screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}

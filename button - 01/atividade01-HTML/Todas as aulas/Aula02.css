@@ -1,0 +1,8 @@
+.teste1 {
+    display: flex;
+    width: 650px;
+    height:650px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}

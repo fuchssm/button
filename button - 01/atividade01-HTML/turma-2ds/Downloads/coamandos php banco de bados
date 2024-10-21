@@ -1,0 +1,44 @@
+01) ALTERAR O NOMDE DO CLIENTE para "Luis Felipe de souza", telefone "41 98855-1014" com id 6
+
+      UPDATE cliente set nome = "Lui Felipe de Souza", telefone = "41 98855-1014" where cod_cliente = 6
+
+02) ALTERAR TODOS OS DADOS (uf) de SC para MG
+
+      UPDATE cliente set uf = "MG" where
+
+03) ALTERAR PARA INATIVO todos os clientes do estado do PR
+
+      Update cliente set uf = NULL
+
+04) DEFINIR COMO INATIVO todos os clientes que não tenham CPF
+
+05) ALTERAR PARA CEP "83.880-000" todos os clientes residentes em Rio Negro
+
+06) MUDAR NOME DO PRODUTO  para "Mouse Gamer USB Logitech", preço da compra R$ 48,90 e preço de venda R$ 98,90 para id_produto = 7
+
+08) DEIXAR TODOS OS CAMPOS de telefone 2 como NULOS
+
+09) HABILITAR CLIENTE com o cpf 012.023.044-55 e com nome "Maria Clara Pontes"
+
+10) ADICONAR UM REGISTRO com os seguintes dados:
+        Nome: Juarez Lourenço Martins
+        CPF: 033.047.199-65
+        Endereço: Rua XV de Novembro, 542 - Centro - Rio Negro PR
+        Telefones: 47 98800-7788 e 47 99900-7799
+        E-mail: juarezposntes@terra.com.br
+        Ativo: Desabilitado
+
+
+
+
+    ALTERAR PARA INATIVO todos os clinetes do estado do PR
+
+    DEFINIR COMO INATIVO todos os clientes que não tenham CPF 
+
+    ALTERAR PARA CEP "83.880-000" todos os clientes RESIDENTES DE RIO NEGRO
+
+    MUDAR NOME DO PRODUTO PARA "Mouse Game UBS Logitech", preço de compra R$48.90 e preço de venda R$98.90 para id_produto = 7 
+
+    INSERIR UM PRODUTO NOVO com as seguintes descrição "WebCam Full HD C3TECH, código de barras EAN13 789855217577, valor de compra R$ 210,50 e valor de venda R$ 283,50
+
+

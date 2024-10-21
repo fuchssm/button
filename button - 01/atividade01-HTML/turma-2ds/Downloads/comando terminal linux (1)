@@ -1,0 +1,33 @@
+(atualizar)
+1 - primeiro comando
+sudo apt update
+
+2 - segundo comando
+sudo apt upgrade
+
+(verificar)
+3 - terceiro comando
+node -v
+npm -v
+npx -v
+expo --version
+nvm -v
+
+##########################################################
+
+1 - ver o dirtório/pasta atual do terminal
+
+cd 
+
+2 - comando para ver a proima hierarquia de pasta
+
+ls
+
+3 - comando para acessar o próximo diretório/pasta
+
+4 - cd 'nome do diretório ou pasta' acessando a area de trabalho
+cd Área de trabalho
+
+5 - comando para voltar a pasta anterior 
+cd .. 
+

@@ -1,0 +1,75 @@
+body {
+    font-sise: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  .button-01 {
+      font-family: Arial, Helvetica, sans-serif;
+      display: inline-block;
+      font-size: 1em;
+      padding: 1em 2em;
+      margin-top: 350px;
+      margin-bottom: 60px;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: #0cd2ffcb;
+      color: #000000;
+      font-weight: 600;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      transition: transform ease-in 0.1s, box-shadow ease-in0.25s;
+      box-shadow: 0 2px 25px #00ffb3
+  }
+  
+  .button-01:focus{
+    outline: 0;
+  }
+  .button-01:before,
+  .button-01:after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 140%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  .button-01:before{
+    display: none;
+    top: -75%;
+    background-image: 
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    ;
+
+
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 
+    18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }
+
+  .button-01::after{
+    display: none;
+    top: -75%;
+    background-image: 
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    radial-gradient(circle, #00fffc 20%, transparent 20%),
+    ;
+
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18%
+     18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }

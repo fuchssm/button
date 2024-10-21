@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: black;
+    color: black;
+    padding: 30;
+}
+
+.nav h1{
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    border: 2px solid;
+    height: 100%;
+}
+
+.menu{
+    flex: 0 0 200px;  /*LARGURA FIXA DO MENU*/
+    background-color: black
+    border: 1px solid white
+}
+
+menu.ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    padding: 20px;
+    border-bottom: none;
+    
+}
+.menu li:last-child{
+    border-bottom: none;
+
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+}
